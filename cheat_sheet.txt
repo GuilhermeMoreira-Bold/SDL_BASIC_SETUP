@@ -1,0 +1,8 @@
+gcc test.c -o programa -I/usr/include/SDL2 -lSDL2 -lm
+
+--Compilar código C, -I utilizando apontando o diretório raiz, do SDL, -lSDL2 para compilar o SDL e -lm para utilizar a biblioteca matemática do GNU
+
+gcc test.c -o programa -I/usr/include/SDL2 -lSDL2 -lSDL2_image  -lm
+
+--Agora precisamos adicionar a biblioteca LSDL2_image, para isso podemos adicionar no comando do terminal para linkagem o comando -lSDL2_image
+
